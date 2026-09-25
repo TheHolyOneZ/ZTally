@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="ztally/assets/img/logo-512.webp" width="96" height="96" alt="ZTally logo" />
+<img src="assets/logo.png" width="96" height="96" alt="ZTally logo" />
 
 # ZTally
 
@@ -17,7 +17,7 @@ A free, private screen-time tracker for Windows and Linux. Nothing leaves your c
 
 <br />
 
-<img src="ztally/assets/img/app-today.webp" width="880" alt="ZTally's Dial: today's app use painted around a 24-hour ring, with apps and their categories listed on the right" />
+<img src="assets/screenshots/app-today.webp" width="880" alt="ZTally's Dial: today's app use painted around a 24-hour ring, with apps and their categories listed on the right" />
 
 </div>
 
@@ -77,7 +77,7 @@ Checksums: [`SHA256SUMS`](https://zsync.eu/ztally/releases/latest/checksums). Al
 </table>
 
 <p align="center">
-  <img src="ztally/assets/img/app-background.webp" width="880" alt="Hover card showing VS Code in front while a YouTube tab played; the side panel lists calls and background audio" />
+  <img src="assets/screenshots/app-background.webp" width="880" alt="Hover card showing VS Code in front while a YouTube tab played; the side panel lists calls and background audio" />
 </p>
 
 | | |
@@ -97,16 +97,16 @@ Checksums: [`SHA256SUMS`](https://zsync.eu/ztally/releases/latest/checksums). Al
 
 <table>
   <tr>
-    <td width="50%"><img src="ztally/assets/img/app-week.webp" alt="The Ribbon: seven days as hour cells coloured by category" /></td>
-    <td width="50%"><img src="ztally/assets/img/app-calendar.webp" alt="Month calendar with each day's total and category mix" /></td>
+    <td width="50%"><img src="assets/screenshots/app-week.webp" alt="The Ribbon: seven days as hour cells coloured by category" /></td>
+    <td width="50%"><img src="assets/screenshots/app-calendar.webp" alt="Month calendar with each day's total and category mix" /></td>
   </tr>
   <tr>
     <td><b>Ribbon</b>: the week as 7×24 hour cells, with category totals against last week.</td>
     <td><b>Calendar</b>: a month grid with each day's mix. Click any day to open its dial.</td>
   </tr>
   <tr>
-    <td><img src="ztally/assets/img/app-receipt.webp" alt="A weekly screen-time receipt itemised by category" /></td>
-    <td><img src="ztally/assets/img/app-goals.webp" alt="Goals with progress rings" /></td>
+    <td><img src="assets/screenshots/app-receipt.webp" alt="A weekly screen-time receipt itemised by category" /></td>
+    <td><img src="assets/screenshots/app-goals.webp" alt="Goals with progress rings" /></td>
   </tr>
   <tr>
     <td><b>Receipt</b>: any period itemised like a till slip. Click days, shift-click for a range.</td>
@@ -120,11 +120,11 @@ Checksums: [`SHA256SUMS`](https://zsync.eu/ztally/releases/latest/checksums). Al
 
 | Year | Command palette |
 |---|---|
-| <img src="ztally/assets/img/app-year.webp" alt="Year heatmap" /> | <img src="ztally/assets/img/app-palette.webp" alt="Command palette" /> |
+| <img src="assets/screenshots/app-year.webp" alt="Year heatmap" /> | <img src="assets/screenshots/app-palette.webp" alt="Command palette" /> |
 | **Start focus** | **Settings** |
-| <img src="ztally/assets/img/app-focuspick.webp" alt="Starting a focus session from the dial" /> | <img src="ztally/assets/img/app-settings.webp" alt="Appearance settings" /> |
+| <img src="assets/screenshots/app-focuspick.webp" alt="Starting a focus session from the dial" /> | <img src="assets/screenshots/app-settings.webp" alt="Appearance settings" /> |
 | **Nocturne** | **Rosé, light** |
-| <img src="ztally/assets/img/app-nocturne.webp" alt="Nocturne style" /> | <img src="ztally/assets/img/app-rose-light.webp" alt="Rosé style, light theme" /> |
+| <img src="assets/screenshots/app-nocturne.webp" alt="Nocturne style" /> | <img src="assets/screenshots/app-rose-light.webp" alt="Rosé style, light theme" /> |
 
 </details>
 
@@ -236,7 +236,6 @@ git tag v0.1.0 && git push origin v0.1.0
 
 It builds the Linux packages (`.deb`, `.rpm`, `.AppImage`) on Ubuntu 22.04, so they run on anything with glibc 2.35 or newer, and the Windows NSIS installer (per-user, no admin rights; installs WebView2 when missing). It runs the frontend checks and all engine tests on both systems, zips the browser extension, and publishes everything with `SHA256SUMS` as a draft release.
 
-To update the website, upload the release files to `ztally/releases/` and set `ZTALLY_VERSION` in `ztally/releases/.htaccess`. The `releases/latest/*` links on the site follow it.
 
 Local builds work too (`pnpm tauri build`). On Arch-based systems set `NO_STRIP=true` for the AppImage; the result then needs the build machine's glibc or newer.
 
@@ -256,7 +255,6 @@ src-tauri/src/
   db/                SQLite schema & queries
 src/                 React UI (views/, components/, lib/, locales/)
 extension/           ZTally Bridge WebExtension (MV3, Chromium + Firefox)
-ztally/              the website at zsync.eu/ztally/
 ```
 
 Only `tracker/windows.rs` is Windows-specific; everything else, including the UI, is shared.
