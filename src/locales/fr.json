@@ -1,0 +1,756 @@
+{
+  "_meta": {
+    "name": "Français",
+    "english": "French"
+  },
+  "actions": {
+    "alwaysCount": "Toujours compter {item} comme",
+    "assigned": "{item} → {category}. Temps passé et futur recoloré.",
+    "current": "actuelle",
+    "defaultFor": "{item} par défaut (les règles de site restent prioritaires)",
+    "forgetDay": "Oublier son historique de ce jour",
+    "forgot_one": "{count} entrée supprimée pour {item}.",
+    "forgot_other": "{count} entrées supprimées pour {item}.",
+    "hideTitles": "Ne plus enregistrer les titres de fenêtre",
+    "highlight": "Mettre en évidence sur le cadran",
+    "ignore": "Ne jamais suivre cette app",
+    "ignored": "{item} ne sera plus suivi. Annulable dans Réglages → Confidentialité.",
+    "recordTitles": "Réenregistrer les titres de fenêtre",
+    "stopHighlight": "Arrêter la mise en évidence",
+    "titlesOff": "Les titres de {item} ne seront plus enregistrés.",
+    "titlesOn": "Les titres de {item} seront enregistrés.",
+    "undo": "Annuler"
+  },
+  "bg": {
+    "away": "absent",
+    "duringAria": "Ce qui était au premier plan pendant la lecture",
+    "in": "dans {browser}",
+    "mostlyAway": "surtout pendant votre absence · {time}",
+    "mostlyDuring": "surtout pendant {category} · {time}",
+    "whileFocused": "{pct} % en concentration"
+  },
+  "calendar": {
+    "activeAway": "{active} actif · {away} absent",
+    "awayTotal": "{time} d'absence",
+    "biggestDay": "Jour le plus chargé",
+    "driftShare": "{pct} % de dérive",
+    "less": "moins",
+    "month": "Mois",
+    "more": "plus",
+    "next": "Suivant",
+    "perActiveDay": "Par jour actif",
+    "prev": "Précédent",
+    "thisMonth": "Ce mois-ci",
+    "thisYear": "Cette année",
+    "total": {
+      "month": "Actif ce mois-ci",
+      "year": "Actif cette année"
+    },
+    "year": "Année"
+  },
+  "calls": {
+    "fact": "dont {time} d'appels",
+    "heading": "Appels et voix",
+    "onCallIn": "en appel dans {app}",
+    "otherAudio": "Autre audio"
+  },
+  "categories": {
+    "defaults": {
+      "communication": "Communication",
+      "creative": "Créatif",
+      "deepWork": "Travail profond",
+      "entertainment": "Divertissement",
+      "games": "Jeux",
+      "general": "Général",
+      "learning": "Apprentissage",
+      "social": "Réseaux sociaux"
+    },
+    "uncategorised": "Sans catégorie"
+  },
+  "date": {
+    "nextDay": "Jour suivant",
+    "nextWeek": "Semaine suivante",
+    "prevDay": "Jour précédent",
+    "prevWeek": "Semaine précédente",
+    "range": "{from} au {to}",
+    "thisWeek": "Cette semaine",
+    "today": "Aujourd'hui",
+    "yesterday": "Hier"
+  },
+  "dial": {
+    "aria": "Cadran d'activité sur 24 heures. Utilisez les flèches pour parcourir la journée.",
+    "focusSession": "Session de concentration",
+    "longestStreak": "Plus longue série de concentration"
+  },
+  "drag": {
+    "dropHint": "déposez sur une catégorie",
+    "onto": "→ {category}"
+  },
+  "facts": {
+    "away": "Absent",
+    "awayHint": "inactif / verrouillé",
+    "background": "Arrière-plan",
+    "backgroundHint": "audio, non compté",
+    "none": "aucune",
+    "now": "maintenant",
+    "perHour": "{n} par heure",
+    "span": "Amplitude",
+    "spanHint": "de la première à la dernière",
+    "streak": "Meilleure série",
+    "streakHint": "5 min+ de travail concentré",
+    "switches": "Bascules",
+    "switchesHint": "changements d'app",
+    "until": "jusqu'à {time}"
+  },
+  "focus": {
+    "driftSoFar": "{time} de dérive jusqu'ici",
+    "drifting": "en dérive…",
+    "end": "terminer",
+    "explain": "Pendant la session, ZTally vous prévient après une minute dans une app de dérive et affiche un bilan à la fin.",
+    "progressAria": "Progression de la session",
+    "session": "session de concentration",
+    "start": "Se concentrer",
+    "started": "Session de concentration lancée : {min} minutes. ZTally vous préviendra si vous dérivez."
+  },
+  "focusReport": {
+    "again": "Encore {min} minutes",
+    "clean": "Rien. Une session impeccable.",
+    "completed": "{time}, terminée",
+    "done": "Terminé",
+    "endedEarly": "{time}, arrêtée plus tôt",
+    "nothing": "Rien d'enregistré.",
+    "onTask": "sur la tâche",
+    "pulledAway": "Distrait par",
+    "title": "Bilan de la session de concentration",
+    "workedIn": "Travaillé dans"
+  },
+  "goals": {
+    "added": "Objectif ajouté. ZTally vous préviendra quand vous approcherez.",
+    "composer": {
+      "add": "Ajouter l'objectif",
+      "durationAria": "Durée",
+      "eachDay": "chaque jour",
+      "eachWeek": "chaque semaine",
+      "inApp": "dans {app}",
+      "max": "Passer au plus",
+      "min": "Passer au moins",
+      "onTarget": "sur {target}",
+      "opAria": "Limite ou objectif",
+      "periodAria": "Période",
+      "targetAria": "Sur quoi",
+      "total": "à l'écran, au total"
+    },
+    "delete": "Supprimer l'objectif",
+    "deletedCategory": "une catégorie supprimée",
+    "left": "encore {time}",
+    "new": "Nouvel objectif",
+    "of": "sur {time}",
+    "over": "Dépassé de {time}",
+    "perDay": "{goal} par jour",
+    "perWeek": "{goal} par semaine",
+    "reached": "Objectif atteint",
+    "removed": "Objectif supprimé.",
+    "screenTime": "temps d'écran",
+    "sentence": {
+      "max": "Au plus {time} sur {target}",
+      "maxTotal": "Au plus {time} de temps d'écran",
+      "min": "Au moins {time} sur {target}",
+      "minTotal": "Au moins {time} de temps d'écran"
+    },
+    "startWith": "Commencez par l'un de ceux-ci",
+    "thisWeek": "cette semaine",
+    "toGo": "encore {time}",
+    "today": "aujourd'hui"
+  },
+  "kinds": {
+    "distracting": "dérive",
+    "neutral": "neutre",
+    "productive": "concentration"
+  },
+  "ledger": {
+    "apps": "Apps",
+    "background": "Arrière-plan",
+    "backgroundHint": "Médias lus pendant que vous travailliez dans une autre fenêtre",
+    "backgroundNote": "Tout ce qui a produit du son pendant que vous regardiez autre chose (musique, vidéos dans d'autres onglets, jeux), plus les appels dès que votre micro était utilisé. Jamais compté dans le temps d'écran ni les objectifs. La barre montre ce que vous faisiez pendant ce temps.",
+    "changeCategory": "Changer de catégorie",
+    "empty": {
+      "apps": {
+        "body": "Les apps apparaissent ici dès que vous les utilisez.",
+        "title": "Pas encore d'apps"
+      },
+      "background": {
+        "body": "La musique ou les vidéos lues pendant que vous travaillez dans une autre fenêtre apparaissent ici, par ex. Spotify derrière votre éditeur.",
+        "title": "Rien en arrière-plan"
+      },
+      "sites": {
+        "body": "Les sites sont lus depuis les titres des onglets. Installez l'extension ZTally Bridge (Réglages) pour des domaines exacts.",
+        "title": "Pas encore de sites"
+      }
+    },
+    "mixed": "Mixte",
+    "mixedHint": "Réparti entre catégories selon le site ou le titre. Cliquez pour définir un défaut.",
+    "showTitles": "Afficher les titres de fenêtre",
+    "sites": "Sites",
+    "sortMe": "À classer",
+    "toSortHint": "Clic droit sur une ligne ou glissez-la sur une catégorie",
+    "toSort_one": "{count} à classer",
+    "toSort_other": "{count} à classer"
+  },
+  "lens": {
+    "away": "Loin du clavier",
+    "inBackground": "en arrière-plan",
+    "nothing": "Rien d'enregistré"
+  },
+  "nav": {
+    "calendar": "Calendrier",
+    "goals": "Objectifs",
+    "main": "Principal",
+    "report": "Ticket",
+    "rules": "Catégories",
+    "settings": "Réglages",
+    "today": "Aujourd'hui",
+    "week": "Semaine"
+  },
+  "notify": {
+    "drift": {
+      "body": "{time} sur {what}. Encore {left}, vous y êtes presque.",
+      "title": "Vous dérivez de votre session de concentration"
+    },
+    "focusDone": {
+      "body": "{time} accomplies, {pct} % sur la tâche. C'est l'heure d'une courte pause.",
+      "title": "Session de concentration terminée"
+    },
+    "goalDone": {
+      "body": "Objectif de {limit} atteint {period}. Bravo.",
+      "title": "{name} : objectif atteint"
+    },
+    "goalNear": {
+      "body": "{used} sur {limit} utilisés {period}.",
+      "title": "{name} : 80 % du budget"
+    },
+    "goalOver": {
+      "body": "Vous avez passé {used} {period}, au-delà de votre budget de {limit}.",
+      "title": "{name} : budget épuisé"
+    },
+    "periodToday": "aujourd'hui",
+    "periodWeek": "cette semaine",
+    "screenTime": "Temps d'écran",
+    "weekly": {
+      "body": "Le bilan hebdomadaire de ZTally pour la semaine dernière est prêt.",
+      "title": "Votre semaine est sur le ticket"
+    }
+  },
+  "onboarding": {
+    "aria": "Bienvenue dans ZTally",
+    "back": "Retour",
+    "browser": {
+      "lead": "ZTally lit déjà les sites depuis les titres d'onglets (YouTube, GitHub, Reddit…). Pour des domaines exacts partout, ajoutez la petite extension {name}. Elle ne parle qu'à cette app sur 127.0.0.1.",
+      "title": "Des sites exacts, en option"
+    },
+    "continue": "Continuer",
+    "later": "Plus tard",
+    "look": {
+      "lead": "Choisissez un style. Chaque style existe en sombre et en clair, et vous pouvez changer à tout moment.",
+      "title": "À votre image"
+    },
+    "privacy": {
+      "autostartHint": "ZTally vit dans la zone de notification et n'utilise presque aucune ressource.",
+      "full": "Apps, sites et titres de fenêtre",
+      "fullHint": "Voyez quel fichier, onglet ou chat a pris le temps. Les gestionnaires de mots de passe sont toujours exclus.",
+      "lead": "Modifiable à tout moment dans Réglages → Confidentialité.",
+      "minimal": "Apps et sites uniquement",
+      "minimalHint": "Seulement les totaux. Aucun titre n'est jamais stocké.",
+      "title": "Que doit-il retenir ?"
+    },
+    "ready": {
+      "lead": "ZTally suit discrètement votre activité depuis la zone de notification. Une visite d'une minute de la vraie app ?",
+      "title": "Tout est prêt"
+    },
+    "skipTour": "Passer la visite",
+    "startTour": "Faites-moi visiter",
+    "tips": {
+      "days": "{key} pour passer d'un jour à l'autre",
+      "palette": "{key} pour aller n'importe où",
+      "recategorise": "{key} sur une app ou un site (ou glissez-le sur une catégorie) pour le reclasser",
+      "rightClick": "Clic droit"
+    },
+    "welcome": {
+      "detected": "Détecté. Le suivi fonctionne dans cette session.",
+      "installHelper": "Installer l'assistant",
+      "lead": "ZTally compte discrètement les apps et sites que vous utilisez, les range par catégories et affiche votre journée comme une horloge lisible d'un coup d'œil.",
+      "local": "Rien ne quitte cet ordinateur.",
+      "title": "Où est passée la journée ?"
+    }
+  },
+  "orb": {
+    "away": "Absent",
+    "paused": "En pause",
+    "pausedAria": "Suivi en pause. Cliquez pour reprendre.",
+    "tracking": "Suivi actif",
+    "trackingAria": "Suivi actif. Cliquez pour mettre en pause."
+  },
+  "palette": {
+    "appHint": "app",
+    "aria": "Palette de commandes",
+    "button": "Aller à…",
+    "cmd": {
+      "calendar": "Calendrier : mois et année",
+      "dataFolder": "Ouvrir le dossier des données",
+      "endFocus": "Terminer la session de concentration",
+      "extension": "Configurer l'extension de navigateur",
+      "focus": "Lancer une session de concentration de {min} minutes",
+      "highlightApp": "Mettre en évidence {app}",
+      "jumpToday": "Aller à aujourd'hui",
+      "jumpYesterday": "Aller à hier",
+      "lastReceipt": "Ticket de la semaine dernière",
+      "pause15": "Mettre le suivi en pause 15 minutes",
+      "pause60": "Mettre le suivi en pause 1 heure",
+      "pauseTomorrow": "Pause jusqu'à demain",
+      "report": "Ticket hebdomadaire",
+      "today": "Aujourd'hui : le cadran",
+      "tour": "Faire la visite",
+      "week": "Semaine : le ruban"
+    },
+    "noMatches": "Aucun résultat",
+    "open": "Ouvrir la palette de commandes",
+    "placeholder": "Aller à une vue, mettre en pause, trouver une app…",
+    "toast": {
+      "paused15": "En pause pendant 15 minutes.",
+      "paused60": "En pause pendant une heure.",
+      "pausedTomorrow": "En pause jusqu'à demain.",
+      "resumed": "Suivi repris."
+    }
+  },
+  "pause": {
+    "h1": "Pendant 1 heure",
+    "heading": "Mettre le suivi en pause",
+    "m15": "Pendant 15 minutes",
+    "resume": "Reprendre le suivi",
+    "tomorrow": "Jusqu'à demain"
+  },
+  "rail": {
+    "today": "{time} aujourd'hui"
+  },
+  "receipt": {
+    "aria": "Ticket hebdomadaire",
+    "away": "Absent (non facturé)",
+    "background": "Audio en arrière-plan (non facturé)",
+    "bestStreak": "Meilleure série de concentration",
+    "busiestDay": "Jour le plus chargé",
+    "calls": "Appels et voix (non facturé)",
+    "clear": "Effacer",
+    "csvRange": "Exporter en CSV",
+    "drift": "Dérive",
+    "emptyBody": "Rien n'a été enregistré sur cette période. Choisissez un autre jour, une autre semaine ou un autre mois, ou des jours avec de l'activité.",
+    "emptyTitle": "Rien à détailler pour l'instant",
+    "focusSessions": "Sessions de concentration",
+    "focused": "Concentré",
+    "heading": {
+      "custom": "Ticket du temps d'écran",
+      "day": "Ticket quotidien du temps d'écran",
+      "month": "Ticket mensuel du temps d'écran",
+      "week": "Ticket hebdomadaire du temps d'écran"
+    },
+    "item": "Article",
+    "jsonRange": "Exporter en JSON",
+    "kind": {
+      "custom": "Choisir des jours",
+      "day": "Jour",
+      "month": "Mois",
+      "week": "Semaine"
+    },
+    "local": "calculé localement · rien n'a quitté cette machine",
+    "nDays_one": "{count} jour sélectionné",
+    "nDays_other": "{count} jours sélectionnés",
+    "number": "N° {n}",
+    "obs": {
+      "busiestHour": "Votre heure la plus chargée était de {from} à {to}.",
+      "distractions": "les distractions",
+      "driftRose": "La dérive est passée à {now} % de votre temps d'écran (contre {before} %), menée par {category}.",
+      "lateNights_one": "Vous étiez devant l'écran après 23:00 {count} soir.",
+      "lateNights_other": "Vous étiez devant l'écran après 23:00 {count} soirs.",
+      "moreFocusPrev": "Vous avez consacré {time} de plus à la concentration que sur la période précédente.",
+      "switching": "Vous avez changé d'app {n} fois par heure. Regrouper les tâches pourrait aider."
+    },
+    "ofTotal": "{pct} % du total",
+    "onTask": "{pct} % sur la tâche",
+    "period": "Période",
+    "pickBody": "Cliquez sur des jours dans le calendrier à droite. Maj+clic sélectionne une plage.",
+    "pickHint": "Cliquez sur des jours pour les ajouter ; Maj+clic pour une plage.",
+    "pickTitle": "Choisissez au moins un jour",
+    "png": "Enregistrer le ticket en PNG",
+    "print": "Imprimer",
+    "saveFailed": "Échec de l'enregistrement : {error}",
+    "saved": "{file} enregistré",
+    "sideBody": "Le ticket est calculé sur cette machine. Les exports incluent chaque période enregistrée de la sélection.",
+    "sideTitle": "À emporter",
+    "subtotal": "Sous-total actif",
+    "switches": "Changements de contexte",
+    "thanks": "Merci de votre attention",
+    "time": "Temps",
+    "topApps": "Top apps",
+    "topSites": "Top sites",
+    "total": "Total",
+    "vsPrev": "vs période précédente"
+  },
+  "rules": {
+    "add": "Ajouter",
+    "builtin": "Règles intégrées ({n})",
+    "categoriesHint": "renommez, recolorez et décidez de ce qui compte comme concentration ou dérive",
+    "categoryAria": "Catégorie",
+    "colour": "Couleur",
+    "colourN": "Couleur {n}",
+    "confirmDelete": "Cliquez à nouveau pour supprimer",
+    "delete": "Supprimer",
+    "deleteCategory": "Supprimer la catégorie",
+    "deleteRule": "Supprimer la règle",
+    "deleted": "{name} supprimée. Ses règles aussi.",
+    "fileUnder": "Classer dans {name}",
+    "filter": "Filtrer les règles intégrées…",
+    "inbox": "Boîte à classer",
+    "inboxHint": "apps et sites sans catégorie, les plus gros d'abord",
+    "inboxZero": "Tout ce que vous avez utilisé a une catégorie.",
+    "kind": {
+      "distracting": "Dérive",
+      "neutral": "Neutre",
+      "productive": "Concentration"
+    },
+    "kindApp": "app",
+    "kindSite": "site",
+    "match": {
+      "app": "L'app est",
+      "domain": "Le site est",
+      "title": "Le titre contient"
+    },
+    "matchAria": "Correspondance sur",
+    "more": "Plus",
+    "nameAria": "Nom de la catégorie",
+    "newCategory": "Nouvelle catégorie",
+    "patternAria": "Motif",
+    "placeholder": {
+      "app": "clé d'app, ex. code",
+      "domain": "domaine, ex. youtube.com",
+      "title": "texte ou regex dans le titre de la fenêtre"
+    },
+    "restore": "Restaurer les valeurs par défaut",
+    "restored": "Règles intégrées restaurées.",
+    "total": "{time} au total",
+    "type": {
+      "app": "app",
+      "domain": "site",
+      "title": "titre"
+    },
+    "yours": "Vos règles",
+    "yoursEmpty": "Les règles que vous créez (clic droit sur n'importe quoi dans Aujourd'hui, ou le formulaire ci-dessus) apparaissent ici.",
+    "yoursHint": "les règles de site priment sur celles de titre, qui priment sur celles d'app ; les vôtres priment sur les intégrées du même type"
+  },
+  "select": {
+    "filter": "Filtrer…"
+  },
+  "settings": {
+    "about": "À propos",
+    "aboutText": "ZTally {version} · {platform} · par TheHolyOneZ · logiciel libre sous GNU GPL v3.0",
+    "appKey": "clé d'app",
+    "appOrDomain": "clé d'app ou domaine",
+    "appearance": "Apparence",
+    "appearanceHint": "à votre image",
+    "autostart": "Lancer avec le système",
+    "autostartHint": "ZTally démarre discrètement dans la zone de notification à l'ouverture de session.",
+    "backgroundAudio": "Compter l'audio en arrière-plan",
+    "backgroundAudioHint": "La musique ou la vidéo lue pendant que vous travaillez dans une autre fenêtre (Spotify derrière votre éditeur) est enregistrée à part. Elle ne compte jamais dans le temps d'écran, la concentration ou les objectifs.",
+    "browser": "Navigateur",
+    "calls": "Détecter les appels",
+    "callsHint": "Enregistre quand une app utilise votre micro (Discord, Teams, Zoom, Meet…), même au premier plan. Les vumètres et outils audio sont ignorés.",
+    "cancel": "Annuler",
+    "chooseDays": "Choisir des jours…",
+    "connected": "Connectée",
+    "corners": "Coins",
+    "cornersHint": "L'arrondi des cartes, boutons et menus.",
+    "cornersOpt": {
+      "round": "Très ronds",
+      "rounded": "Arrondis",
+      "sharp": "Nets",
+      "soft": "Doux"
+    },
+    "data": "Données",
+    "database": "Base de données",
+    "deleteDays_one": "Supprimer {count} jour",
+    "deleteDays_other": "Supprimer {count} jours",
+    "extension": "Extension ZTally Bridge",
+    "extensionHint": "Optionnelle. Sans elle, les sites sont devinés depuis les titres d'onglets. Avec elle, ZTally voit le domaine exact de l'onglet actif. Fonctionne dans Chrome, Edge, Brave, Vivaldi, Opera et Firefox. Elle ne parle qu'à 127.0.0.1:{port}.",
+    "extensionReinstall": "Guide d'installation",
+    "focusLength": "Durée des sessions de concentration",
+    "focusLengthHint": "Utilisée par le menu de la zone de notification. Le cadran propose aussi 25, 50 et 90 minutes.",
+    "font": "Police",
+    "fontOpt": {
+      "grotesk": "Grotesk",
+      "mono": "Mono",
+      "system": "Système"
+    },
+    "forget": "Oublier l'historique",
+    "forgetConfirm": "Supprimer définitivement {what} ? Impossible d'annuler.",
+    "forgetDays": "Oublier des jours précis",
+    "forgetDaysHint": "Choisissez n'importe quels jours, p. ex. ceux remplis de données de test, et supprimez seulement ceux-là.",
+    "forgetHint": "Supprimer définitivement le temps enregistré.",
+    "forgetRange": {
+      "all": "Tout",
+      "hour": "Dernière heure",
+      "today": "Aujourd'hui",
+      "week": "7 jours"
+    },
+    "forgetWhat": {
+      "all": "tout l'historique",
+      "hour": "la dernière heure",
+      "today": "aujourd'hui",
+      "week": "les 7 derniers jours"
+    },
+    "forgotten_one": "{count} entrée supprimée ({what}).",
+    "forgotten_other": "{count} entrées supprimées ({what}).",
+    "goalNudges": "Rappels d'objectifs",
+    "goalNudgesHint": "Une notification à 80 % et 100 % d'un budget, et quand vous atteignez un objectif.",
+    "idle": "Inactif après",
+    "idleHint": "Sans clavier ni souris pendant cette durée, le temps compte comme absent. Les apps de vidéo et de réunion sont exemptées.",
+    "ignored": "Ne jamais suivre",
+    "ignoredHint": "Ces apps sont invisibles pour ZTally.",
+    "installGnome": "Installer l'assistant GNOME",
+    "language": "Langue",
+    "languageAuto": "Comme le système",
+    "languageHint": "« Comme le système » suit la langue de votre ordinateur.",
+    "media": "Continuer à compter en inactivité dans",
+    "mediaHint": "Apps et sites que vous regardez ou écoutez sans toucher au clavier.",
+    "minutes": "{n} min",
+    "monday": "Lundi",
+    "more": "+{n} autres",
+    "motion": "Réduire les animations",
+    "motionHint": "Désactive animations et transitions.",
+    "nDays_one": "{count} jour",
+    "nDays_other": "{count} jours",
+    "needsAttention": "À vérifier",
+    "none": "aucun",
+    "notConnected": "Non connectée",
+    "notifications": "Notifications",
+    "openFolder": "Ouvrir le dossier",
+    "privacy": "Confidentialité",
+    "privacyHint": "tout reste dans un fichier SQLite local",
+    "remove": "Retirer {item}",
+    "replayIntro": "Revoir l'introduction",
+    "reset": "Réinitialiser ZTally",
+    "resetButton": "Tout réinitialiser",
+    "resetConfirm": "Supprimer toutes les données et tous les réglages et recommencer ? Impossible d'annuler.",
+    "resetConfirm2": "Vraiment réinitialiser ? Tout ce que ZTally a enregistré disparaîtra.",
+    "resetHint": "Supprime tout le temps enregistré, l'audio en arrière-plan, les sessions de concentration, les objectifs, vos règles et catégories et tous les réglages. ZTally redémarre comme fraîchement installé.",
+    "resetTitle": "Tout recommencer",
+    "session": "Session",
+    "sessionOk": "Le suivi de la fenêtre active fonctionne.",
+    "setUpExtension": "Configurer l'extension",
+    "showLess": "afficher moins",
+    "size": "Taille de l'interface",
+    "sizeHint": "Met à l'échelle texte et commandes ensemble.",
+    "style": "Style",
+    "styleHint": "Chaque style est réglé pour le sombre et le clair. Les couleurs des catégories ne changent pas pour que vos données restent lisibles.",
+    "sunday": "Dimanche",
+    "takeTour": "Faire la visite",
+    "theme": "Thème",
+    "themeDark": "Sombre",
+    "themeLight": "Clair",
+    "themeSystem": "Système",
+    "titleExclusions": "Ne jamais enregistrer les titres de",
+    "titleExclusionsHint": "Les gestionnaires de mots de passe y figurent par défaut.",
+    "titles": "Enregistrer les titres de fenêtre",
+    "titlesHint": "Les titres montrent sur quoi vous avez travaillé (noms de fichiers, titres de pages). Désactivez pour ne garder que les apps et sites.",
+    "trackSelf": "Compter le temps passé dans ZTally",
+    "trackSelfHint": "Désactivé par défaut, pour que consulter vos stats n'y apparaisse pas.",
+    "tracking": "Suivi",
+    "unavailable": "indisponible",
+    "weekStart": "La semaine commence le",
+    "weekly": "Rappel du ticket hebdomadaire",
+    "weeklyHint": "Un rappel en début de semaine quand le ticket de la semaine dernière est prêt.",
+    "working": "Fonctionne"
+  },
+  "styles": {
+    "chronograph": {
+      "desc": "Tableau de bord ambre et chaleureux",
+      "name": "Chronographe"
+    },
+    "graphite": {
+      "desc": "Gris neutre, accent sarcelle",
+      "name": "Graphite"
+    },
+    "nocturne": {
+      "desc": "Indigo froid pour les sessions tardives",
+      "name": "Nocturne"
+    },
+    "rose": {
+      "desc": "Prune douce avec un accent rosé",
+      "name": "Rosé"
+    },
+    "verdant": {
+      "desc": "Verts de forêt apaisants",
+      "name": "Verdoyant"
+    }
+  },
+  "ticker": {
+    "away": "Absent · {since}",
+    "focus": "Concentration · encore {min} min",
+    "pausedUntil": "En pause jusqu'à {time}",
+    "resume": "Reprendre",
+    "self": "Suivi actif · ZTally ne se compte pas lui-même",
+    "selfHint": "Le temps passé dans ZTally n'est pas compté. Modifiable dans Réglages → Suivi.",
+    "unavailable": "Suivi indisponible : {backend}",
+    "waiting": "En attente d'une fenêtre"
+  },
+  "titles": {
+    "calendar": "Calendrier",
+    "goals": "Objectifs",
+    "report": "Le ticket",
+    "rules": "Catégories et règles",
+    "settings": "Réglages",
+    "today": "Le cadran",
+    "week": "Le ruban"
+  },
+  "today": {
+    "active": "actif",
+    "activeToday": "actif aujourd'hui",
+    "clear": "effacer",
+    "drift": "dérive",
+    "emptyHint": "Utilisez votre ordinateur ; l'anneau se remplit au fil de l'eau.",
+    "focused": "concentré",
+    "highlighting": "mis en évidence",
+    "legendAria": "Catégories. Déposez une app ou un site sur l'une d'elles pour le reclasser.",
+    "noActivity": "aucune activité",
+    "nothingRecorded": "Rien n'a été enregistré ce jour-là.",
+    "splitAria": "Répartition concentration, neutre et dérive",
+    "unavailable": "Le suivi n'est pas disponible dans cette session.",
+    "warmingUp": "démarrage"
+  },
+  "tour": {
+    "aria": "Visite",
+    "dial": {
+      "body": "Chaque minute de l'anneau prend la couleur de sa catégorie. Les hachures signalent l'absence, la fine bande intérieure l'audio en arrière-plan.",
+      "title": "Votre journée en horloge",
+      "try": "Essayez : survolez l'anneau."
+    },
+    "finish": "Terminer",
+    "finished": "Visite terminée. Relancez-la à tout moment depuis Réglages ou Ctrl+K.",
+    "focus": {
+      "body": "Lancez 25, 50 ou 90 minutes de concentration. ZTally vous prévient après une minute dans une app de dérive et affiche un bilan à la fin.",
+      "title": "Sessions de concentration"
+    },
+    "ledger": {
+      "body": "Apps et sites, les plus gros d'abord. Un mauvais classement se corrige d'un clic droit (ou en le glissant sur une catégorie), et le temps passé se recolore aussitôt.",
+      "title": "Où le temps est passé",
+      "try": "Essayez : clic droit sur une app, ou glissez-la sur une catégorie."
+    },
+    "legend": {
+      "body": "Chaque app et chaque site arrive dans une catégorie. Certaines comptent comme concentration, d'autres comme dérive. Survolez-en une pour ne voir que son temps sur le cadran.",
+      "title": "Catégories"
+    },
+    "nice": "C'est ça.",
+    "palette": {
+      "body": "La palette de commandes trouve vues, apps et actions : pause, concentration, export.",
+      "title": "Aller n'importe où",
+      "try": "Essayez : appuyez sur Ctrl+K."
+    },
+    "rail": {
+      "body": "Semaine, Calendrier, Ticket, Objectifs et Catégories sont dans la barre latérale. Les touches 1 à 7 y mènent directement.",
+      "title": "Tout le reste",
+      "try": "Essayez : survolez la barre latérale."
+    },
+    "skip": "Passer la visite",
+    "skipStep": "Passer",
+    "status": {
+      "body": "Indique toujours si ZTally suit votre activité et le total du jour. Cliquez pour mettre en pause, pour une réunion ou un moment privé.",
+      "title": "État du suivi"
+    }
+  },
+  "tray": {
+    "focus": "Concentration · encore {left} · aujourd'hui {total}",
+    "focusEnd": "Terminer la session de concentration",
+    "focusStart": "Lancer une session de concentration de {min} minutes",
+    "open": "Ouvrir ZTally",
+    "pause15": "Pause de 15 minutes",
+    "pause60": "Pause d'1 heure",
+    "pauseTomorrow": "Pause jusqu'à demain",
+    "paused": "En pause jusqu'à {time} · aujourd'hui {total}",
+    "quit": "Quitter ZTally",
+    "resume": "Reprendre le suivi",
+    "today": "Aujourd'hui · {time}"
+  },
+  "week": {
+    "active": "Actif cette semaine",
+    "activeDays_one": "{count} jour actif",
+    "activeDays_other": "{count} jours actifs",
+    "average": "Moyenne quotidienne",
+    "backgroundHead": "En arrière-plan · non compté",
+    "bestStreak": "Meilleure série de concentration",
+    "categories": "Catégories",
+    "categoriesHint": "cette semaine, avec la précédente en barre fantôme",
+    "cellTip": "{time} · surtout {category}",
+    "emptyBody": "La vue hebdomadaire se remplit au fil du suivi. Utilisez les flèches ci-dessus pour voir d'autres semaines.",
+    "emptyTitle": "Aucune activité cette semaine",
+    "focusedShare": "Part de concentration",
+    "new": "nouveau",
+    "noDataLast": "pas de données la semaine dernière",
+    "openDay": "Ouvrir ce jour",
+    "ribbon": "Le ruban",
+    "ribbonHint": "chaque case est une heure, colorée selon ce qui l'a remplie ; plus c'est lumineux, plus c'est chargé",
+    "same": "comme la semaine dernière",
+    "top": "Top apps et sites",
+    "topHint": "clic droit pour reclasser",
+    "vsLast": "{pct} % vs semaine dernière"
+  },
+  "window": {
+    "close": "Fermer",
+    "closeHint": "Fermer dans la zone de notification ; le suivi continue",
+    "maximize": "Agrandir",
+    "minimize": "Réduire",
+    "restore": "Restaurer"
+  },
+  "wizard": {
+    "c1": {
+      "body": "Allez sur {address} dans le navigateur.",
+      "title": "Ouvrez la page des extensions de {browser}"
+    },
+    "c2": {
+      "body": "C'est l'interrupteur en haut à droite de cette page.",
+      "title": "Activez le mode développeur"
+    },
+    "c3": {
+      "body": "Le bouton apparaît une fois le mode développeur activé.",
+      "title": "Cliquez sur « Charger l'extension non empaquetée » et choisissez ce dossier"
+    },
+    "connected": "Connectée",
+    "connectedChromium": "L'extension communique depuis un navigateur basé sur Chromium.",
+    "connectedFirefox": "L'extension communique depuis Firefox.",
+    "copied": "Copié",
+    "copyAddress": "Copier l'adresse",
+    "copyPath": "Copier le chemin",
+    "dialogHint": "Dans la boîte de dialogue, appuyez sur Ctrl+L, collez le chemin et appuyez sur Entrée.",
+    "dialogHintWin": "Dans la boîte de dialogue, collez le chemin dans la barre d'adresse en haut et appuyez sur Entrée.",
+    "f1": {
+      "body": "ZTally ouvre {address} pour vous ; sinon collez-le dans la barre d'adresse.",
+      "title": "Ouvrez la page de débogage de {browser}"
+    },
+    "f2": {
+      "body": "Il se trouve dans le dossier ZTally Bridge :",
+      "title": "Cliquez sur « Charger un module complémentaire temporaire… » et choisissez manifest.json"
+    },
+    "ffTemporary": "Firefox oublie les modules temporaires au redémarrage : il faudrait refaire l'étape 2 après chaque redémarrage. Une installation permanente nécessite une version de l'extension signée par Mozilla.",
+    "mock": {
+      "devMode": "Mode développeur",
+      "loadTemp": "Charger un module complémentaire temporaire…",
+      "loadUnpacked": "Charger l'extension non empaquetée",
+      "temporary": "Extensions temporaires"
+    },
+    "openBrowser": "Ouvrir {browser}",
+    "otherChromium": "Autre navigateur Chromium",
+    "otherFirefox": "Autre basé sur Firefox",
+    "pasteNote": "Les navigateurs n'autorisent pas les apps à ouvrir cette page directement : cliquez dans la barre d'adresse, collez (Ctrl+V) et appuyez sur Entrée.",
+    "showFolder": "Afficher le dossier",
+    "title": "Ajoutez ZTally Bridge à votre navigateur",
+    "waiting": "En attente de l'extension…",
+    "waitingHint": "Une fois chargée, passez au navigateur et cliquez sur un onglet. Ceci passe au vert tout seul.",
+    "whichBrowser": "Quel navigateur ?",
+    "why": "Optionnel. Avec elle, ZTally voit le site exact de l'onglet actif au lieu de le deviner d'après le titre. Elle ne parle qu'à cette app sur 127.0.0.1."
+  }
+}

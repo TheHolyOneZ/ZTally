@@ -1,0 +1,85 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "ZTally",
+  "version": "0.1.0",
+  "identifier": "eu.zsync.ztally",
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "pnpm build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "withGlobalTauri": false,
+    "windows": [
+      {
+        "label": "main",
+        "title": "ZTally",
+        "width": 1180,
+        "height": 780,
+        "minWidth": 760,
+        "minHeight": 560,
+        "create": false,
+        "center": true,
+        "decorations": false,
+        "shadow": true,
+        "dragDropEnabled": false,
+        "backgroundColor": "#15130f"
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src ipc: http://ipc.localhost"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "appimage",
+      "deb",
+      "rpm",
+      "nsis",
+      "msi"
+    ],
+    "category": "Productivity",
+    "shortDescription": "Local, private screen-time tracker for Linux and Windows",
+    "longDescription": "ZTally quietly records which apps and sites you use and shows where your day went: a 24-hour dial, a weekly ribbon, a calendar and printable receipts. Automatic categories, focus sessions and goals, background audio and call detection. Everything stays on your computer.",
+    "copyright": "© 2026 TheHolyOneZ · GPL-3.0",
+    "license": "GPL-3.0-only",
+    "licenseFile": "../LICENSE",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "linux": {
+      "deb": {
+        "depends": [
+          "libxss1"
+        ],
+        "recommends": [
+          "pulseaudio-utils"
+        ]
+      },
+      "rpm": {
+        "depends": [
+          "libXScrnSaver"
+        ],
+        "recommends": [
+          "pulseaudio-utils"
+        ]
+      }
+    },
+    "windows": {
+      "webviewInstallMode": {
+        "type": "embedBootstrapper"
+      },
+      "nsis": {
+        "installMode": "currentUser"
+      }
+    },
+    "publisher": "TheHolyOneZ",
+    "homepage": "https://zsync.eu/ztally/"
+  }
+}

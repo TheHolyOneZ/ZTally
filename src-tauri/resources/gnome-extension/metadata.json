@@ -1,0 +1,15 @@
+{
+  "uuid": "ztally@zsync.eu",
+  "name": "ZTally focus bridge",
+  "description": "Lets the ZTally screen-time tracker read the focused window's app and title on GNOME Wayland. Exposes a single read-only D-Bus method; nothing else.",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50"
+  ],
+  "version": 1,
+  "url": "https://zsync.eu/ztally/"
+}

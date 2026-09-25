@@ -1,0 +1,116 @@
+
+
+:root {
+  color-scheme: dark;
+  --page: #0e0d0a;
+  --surface: #15130f;
+  --surface-2: #1c1a15;
+  --surface-3: #25221b;
+  --raise: #2e2a22;
+  --line: rgba(255, 236, 205, 0.08);
+  --line-2: rgba(255, 236, 205, 0.14);
+  --ink: #f5efe4;
+  --ink-2: #c8bfae;
+  --muted: #8b8272;
+  --faint: #5a5347;
+  --track: #26231c;
+
+  --brand: #f0a948;
+  --brand-2: #e0772c;
+  --brand-ink: #1b1712;
+  --brand-soft: rgba(240, 169, 72, 0.14);
+
+
+  --c1: #3987e5;
+  --c2: #d95926;
+  --c3: #199e70;
+  --c4: #c98500;
+  --c5: #d55181;
+  --c6: #008300;
+  --c7: #9085e9;
+  --c8: #e66767;
+  --c0: #5d574c;
+
+  --good: #0ca30c;
+  --warning: #fab219;
+  --serious: #ec835a;
+  --critical: #d03b3b;
+  --good-ink: #3ecf5a;
+
+  --receipt: #f3ecdc;
+  --receipt-ink: #26211a;
+  --receipt-muted: #7b705e;
+
+  --shadow: 0 1px 0 rgba(255, 255, 255, 0.03) inset, 0 12px 32px -12px rgba(0, 0, 0, 0.6);
+  --radius: calc(14px * var(--rs, 1));
+  --radius-sm: calc(9px * var(--rs, 1));
+
+  --font: "Space Grotesk Variable", "Space Grotesk", system-ui, "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono Variable", "JetBrains Mono", ui-monospace, "Cascadia Mono", monospace;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    color-scheme: light;
+    --page: #ebe6db;
+    --surface: #f6f3ec;
+    --surface-2: #efebe1;
+    --surface-3: #e5dfd2;
+    --raise: #ffffff;
+    --line: rgba(40, 30, 15, 0.09);
+    --line-2: rgba(40, 30, 15, 0.16);
+    --ink: #1b1712;
+    --ink-2: #4d463b;
+    --muted: #7d7466;
+    --faint: #b3aa9a;
+    --track: #e4ded1;
+    --brand: #d9832a;
+    --brand-2: #c0621c;
+    --brand-ink: #fffaf0;
+    --brand-soft: rgba(217, 131, 42, 0.13);
+    --c1: #2a78d6;
+    --c2: #eb6834;
+    --c3: #1baf7a;
+    --c4: #eda100;
+    --c5: #e87ba4;
+    --c6: #008300;
+    --c7: #4a3aa7;
+    --c8: #e34948;
+    --c0: #b1a893;
+    --good-ink: #006300;
+    --receipt: #fffdf7;
+    --shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset, 0 10px 28px -14px rgba(60, 40, 10, 0.35);
+  }
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --page: #ebe6db;
+  --surface: #f6f3ec;
+  --surface-2: #efebe1;
+  --surface-3: #e5dfd2;
+  --raise: #ffffff;
+  --line: rgba(40, 30, 15, 0.09);
+  --line-2: rgba(40, 30, 15, 0.16);
+  --ink: #1b1712;
+  --ink-2: #4d463b;
+  --muted: #7d7466;
+  --faint: #b3aa9a;
+  --track: #e4ded1;
+  --brand: #d9832a;
+  --brand-2: #c0621c;
+  --brand-ink: #fffaf0;
+  --brand-soft: rgba(217, 131, 42, 0.13);
+  --c1: #2a78d6;
+  --c2: #eb6834;
+  --c3: #1baf7a;
+  --c4: #eda100;
+  --c5: #e87ba4;
+  --c6: #008300;
+  --c7: #4a3aa7;
+  --c8: #e34948;
+  --c0: #b1a893;
+  --good-ink: #006300;
+  --receipt: #fffdf7;
+  --shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset, 0 10px 28px -14px rgba(60, 40, 10, 0.35);
+}

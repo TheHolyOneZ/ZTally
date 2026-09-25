@@ -1,0 +1,748 @@
+{
+  "_meta": {
+    "name": "日本語",
+    "english": "Japanese"
+  },
+  "actions": {
+    "alwaysCount": "{item} を常に次として数える",
+    "assigned": "{item} → {category}。過去と今後の時間を塗り直しました。",
+    "current": "現在",
+    "defaultFor": "{item} の既定（サイトのルールが優先）",
+    "forgetDay": "この日の履歴を削除",
+    "forgot_other": "{item} の記録を {count} 件削除しました。",
+    "hideTitles": "ウィンドウタイトルの記録をやめる",
+    "highlight": "文字盤で強調表示",
+    "ignore": "このアプリを記録しない",
+    "ignored": "{item} は記録されなくなります。設定 → プライバシーで元に戻せます。",
+    "recordTitles": "ウィンドウタイトルの記録を再開",
+    "stopHighlight": "強調表示をやめる",
+    "titlesOff": "今後 {item} のタイトルは記録されません。",
+    "titlesOn": "{item} のタイトルを記録します。",
+    "undo": "元に戻す"
+  },
+  "bg": {
+    "away": "離席",
+    "duringAria": "再生中に前面にあったもの",
+    "in": "{browser} で",
+    "mostlyAway": "主に離席中 · {time}",
+    "mostlyDuring": "主に {category} 中 · {time}",
+    "whileFocused": "集中中 {pct}%"
+  },
+  "calendar": {
+    "activeAway": "アクティブ {active} · 離席 {away}",
+    "awayTotal": "離席 {time}",
+    "biggestDay": "最も多かった日",
+    "driftShare": "脱線 {pct}%",
+    "less": "少",
+    "month": "月",
+    "more": "多",
+    "next": "次へ",
+    "perActiveDay": "アクティブな日の平均",
+    "prev": "前へ",
+    "thisMonth": "今月",
+    "thisYear": "今年",
+    "total": {
+      "month": "今月のアクティブ時間",
+      "year": "今年のアクティブ時間"
+    },
+    "year": "年"
+  },
+  "calls": {
+    "fact": "うち通話 {time}",
+    "heading": "通話・ボイス",
+    "onCallIn": "{app} で通話中",
+    "otherAudio": "その他の音声"
+  },
+  "categories": {
+    "defaults": {
+      "communication": "コミュニケーション",
+      "creative": "クリエイティブ",
+      "deepWork": "集中作業",
+      "entertainment": "エンタメ",
+      "games": "ゲーム",
+      "general": "一般",
+      "learning": "学習",
+      "social": "SNS"
+    },
+    "uncategorised": "未分類"
+  },
+  "date": {
+    "nextDay": "翌日",
+    "nextWeek": "翌週",
+    "prevDay": "前日",
+    "prevWeek": "前週",
+    "range": "{from}〜{to}",
+    "thisWeek": "今週",
+    "today": "今日",
+    "yesterday": "昨日"
+  },
+  "dial": {
+    "aria": "24時間のアクティビティ文字盤。矢印キーで一日をたどれます。",
+    "focusSession": "集中セッション",
+    "longestStreak": "最長の集中"
+  },
+  "drag": {
+    "dropHint": "カテゴリにドロップ",
+    "onto": "→ {category}"
+  },
+  "facts": {
+    "away": "離席",
+    "awayHint": "アイドル / ロック",
+    "background": "バックグラウンド",
+    "backgroundHint": "音声・集計外",
+    "none": "なし",
+    "now": "現在",
+    "perHour": "1時間あたり {n} 回",
+    "span": "活動時間帯",
+    "spanHint": "最初から最後まで",
+    "streak": "最長の集中",
+    "streakHint": "5分以上の集中作業",
+    "switches": "切り替え",
+    "switchesHint": "アプリの切り替え",
+    "until": "〜{time}"
+  },
+  "focus": {
+    "driftSoFar": "脱線 {time}",
+    "drifting": "脱線中…",
+    "end": "終了",
+    "explain": "実行中は、脱線アプリに1分いるとお知らせし、終了時にレポートを表示します。",
+    "progressAria": "セッションの進行状況",
+    "session": "集中セッション",
+    "start": "集中を開始",
+    "started": "集中セッションを開始しました：{min} 分。脱線したら ZTally がお知らせします。"
+  },
+  "focusReport": {
+    "again": "もう {min} 分",
+    "clean": "なし。きれいなセッションでした。",
+    "completed": "{time}・完了",
+    "done": "閉じる",
+    "endedEarly": "{time}・途中で終了",
+    "nothing": "記録なし。",
+    "onTask": "集中率",
+    "pulledAway": "脱線の原因",
+    "title": "集中セッションのレポート",
+    "workedIn": "作業したアプリ"
+  },
+  "goals": {
+    "added": "目標を追加しました。近づいたら ZTally がお知らせします。",
+    "composer": {
+      "add": "目標を追加",
+      "durationAria": "時間",
+      "eachDay": "1日あたり",
+      "eachWeek": "1週間あたり",
+      "inApp": "{app} で",
+      "max": "最大",
+      "min": "最低",
+      "onTarget": "{target} に",
+      "opAria": "上限または目標",
+      "periodAria": "期間",
+      "targetAria": "対象",
+      "total": "画面の合計"
+    },
+    "delete": "目標を削除",
+    "deletedCategory": "削除されたカテゴリ",
+    "left": "残り {time}",
+    "new": "新しい目標",
+    "of": "/ {time}",
+    "over": "{time} 超過",
+    "perDay": "1日 {goal}",
+    "perWeek": "1週間 {goal}",
+    "reached": "目標達成",
+    "removed": "目標を削除しました。",
+    "screenTime": "スクリーンタイム",
+    "sentence": {
+      "max": "{target} は最大 {time}",
+      "maxTotal": "スクリーンタイムは最大 {time}",
+      "min": "{target} を最低 {time}",
+      "minTotal": "スクリーンタイムを最低 {time}"
+    },
+    "startWith": "まずはこちらから",
+    "thisWeek": "今週",
+    "toGo": "あと {time}",
+    "today": "今日"
+  },
+  "kinds": {
+    "distracting": "脱線",
+    "neutral": "中立",
+    "productive": "集中"
+  },
+  "ledger": {
+    "apps": "アプリ",
+    "background": "バックグラウンド",
+    "backgroundHint": "別のウィンドウで作業中に再生されていたメディア",
+    "backgroundNote": "別のものを見ている間に音を出していたもの（音楽、他のタブの動画、ゲーム）と、マイク使用中の通話。スクリーンタイムや目標には含まれません。バーはその間に何をしていたかを示します。",
+    "changeCategory": "カテゴリを変更",
+    "empty": {
+      "apps": {
+        "body": "アプリを使うとすぐにここに表示されます。",
+        "title": "まだアプリがありません"
+      },
+      "background": {
+        "body": "別のウィンドウで作業中に流れていた音楽や動画がここに表示されます（例：エディタの裏の Spotify）。",
+        "title": "バックグラウンドには何もありません"
+      },
+      "sites": {
+        "body": "サイトはブラウザのタブのタイトルから読み取ります。正確なドメインには ZTally Bridge 拡張機能（設定）を入れてください。",
+        "title": "まだサイトがありません"
+      }
+    },
+    "mixed": "混在",
+    "mixedHint": "サイトやタイトルによって複数のカテゴリに分かれています。クリックで既定を設定。",
+    "showTitles": "ウィンドウタイトルを表示",
+    "sites": "サイト",
+    "sortMe": "分類する",
+    "toSortHint": "行を右クリックするか、カテゴリへドラッグ",
+    "toSort_other": "未分類 {count} 件"
+  },
+  "lens": {
+    "away": "離席中",
+    "inBackground": "をバックグラウンドで再生",
+    "nothing": "記録なし"
+  },
+  "nav": {
+    "calendar": "カレンダー",
+    "goals": "目標",
+    "main": "メイン",
+    "report": "レシート",
+    "rules": "カテゴリ",
+    "settings": "設定",
+    "today": "今日",
+    "week": "週"
+  },
+  "notify": {
+    "drift": {
+      "body": "{what} に {time}。残り {left}、がんばりましょう。",
+      "title": "集中セッションから脱線しています"
+    },
+    "focusDone": {
+      "body": "{time} 完了、タスク集中率 {pct}%。少し休憩しましょう。",
+      "title": "集中セッション完了"
+    },
+    "goalDone": {
+      "body": "{period}の目標 {limit} を達成しました。すばらしい。",
+      "title": "{name}：目標達成"
+    },
+    "goalNear": {
+      "body": "{period}は {limit} のうち {used} を使用。",
+      "title": "{name}：予算の80%"
+    },
+    "goalOver": {
+      "body": "{period}は {used} 使いました。予算 {limit} を超えています。",
+      "title": "{name}：予算を使い切りました"
+    },
+    "periodToday": "今日",
+    "periodWeek": "今週",
+    "screenTime": "スクリーンタイム",
+    "weekly": {
+      "body": "先週の ZTally 週次レポートができました。",
+      "title": "今週のレシートが届きました"
+    }
+  },
+  "onboarding": {
+    "aria": "ZTally へようこそ",
+    "back": "戻る",
+    "browser": {
+      "lead": "ZTally はすでにタブのタイトルからサイトを読み取っています（YouTube、GitHub、Reddit…）。どこでも正確なドメインを得るには、小さな拡張機能 {name} を追加してください。通信先はこのアプリ（127.0.0.1）だけです。",
+      "title": "正確なサイト（任意）"
+    },
+    "continue": "次へ",
+    "later": "あとで",
+    "look": {
+      "lead": "スタイルを選んでください。どのスタイルにもダークとライトがあり、いつでも切り替えられます。",
+      "title": "自分好みに"
+    },
+    "privacy": {
+      "autostartHint": "ZTally はトレイに常駐し、ほとんどリソースを使いません。",
+      "full": "アプリ・サイト・ウィンドウタイトル",
+      "fullHint": "どのファイル、タブ、チャットに時間を使ったかがわかります。パスワードマネージャーは常に除外されます。",
+      "lead": "設定 → プライバシーでいつでも変更できます。",
+      "minimal": "アプリとサイトのみ",
+      "minimalHint": "合計だけ。タイトルは一切保存しません。",
+      "title": "どこまで記録しますか？"
+    },
+    "ready": {
+      "lead": "ZTally はトレイで静かに記録しています。実際の画面で1分のツアーを見ますか？",
+      "title": "準備完了"
+    },
+    "skipTour": "ツアーをスキップ",
+    "startTour": "案内して",
+    "tips": {
+      "days": "{key} で日を移動",
+      "palette": "{key} でどこへでもジャンプ",
+      "recategorise": "アプリやサイトを{key}（またはカテゴリへドラッグ）で分類し直せます",
+      "rightClick": "右クリック"
+    },
+    "welcome": {
+      "detected": "検出しました。このセッションで記録できます。",
+      "installHelper": "ヘルパーをインストール",
+      "lead": "ZTally は使ったアプリやサイトを静かに記録し、カテゴリに分け、一日をひと目で読める時計として表示します。",
+      "local": "データはこのコンピューターから出ません。",
+      "title": "一日はどこへ消えた？"
+    }
+  },
+  "orb": {
+    "away": "離席",
+    "paused": "一時停止中",
+    "pausedAria": "記録を一時停止中。クリックで再開。",
+    "tracking": "記録中",
+    "trackingAria": "記録中。クリックで一時停止。"
+  },
+  "palette": {
+    "appHint": "アプリ",
+    "aria": "コマンドパレット",
+    "button": "移動…",
+    "cmd": {
+      "calendar": "カレンダー：月と年",
+      "dataFolder": "データフォルダを開く",
+      "endFocus": "集中セッションを終了",
+      "extension": "ブラウザ拡張機能を設定",
+      "focus": "{min} 分の集中セッションを開始",
+      "highlightApp": "{app} を強調表示",
+      "jumpToday": "今日へ移動",
+      "jumpYesterday": "昨日へ移動",
+      "lastReceipt": "先週のレシート",
+      "pause15": "記録を15分停止",
+      "pause60": "記録を1時間停止",
+      "pauseTomorrow": "明日まで停止",
+      "report": "週次レシート",
+      "today": "今日：文字盤",
+      "tour": "ツアーを見る",
+      "week": "週：リボン"
+    },
+    "noMatches": "該当なし",
+    "open": "コマンドパレットを開く",
+    "placeholder": "画面へ移動、一時停止、アプリを検索…",
+    "toast": {
+      "paused15": "15分間一時停止しました。",
+      "paused60": "1時間一時停止しました。",
+      "pausedTomorrow": "明日まで一時停止しました。",
+      "resumed": "記録を再開しました。"
+    }
+  },
+  "pause": {
+    "h1": "1時間",
+    "heading": "記録を一時停止",
+    "m15": "15分",
+    "resume": "記録を再開",
+    "tomorrow": "明日まで"
+  },
+  "rail": {
+    "today": "今日 {time}"
+  },
+  "receipt": {
+    "aria": "週次レシート",
+    "away": "離席（対象外）",
+    "background": "バックグラウンド音声（対象外）",
+    "bestStreak": "最長の集中",
+    "busiestDay": "最も忙しい日",
+    "calls": "通話・ボイス（対象外）",
+    "clear": "クリア",
+    "csvRange": "CSV でエクスポート",
+    "drift": "脱線",
+    "emptyBody": "この期間には何も記録されていません。別の日・週・月を選ぶか、記録のある日を選択してください。",
+    "emptyTitle": "まだ明細がありません",
+    "focusSessions": "集中セッション",
+    "focused": "集中",
+    "heading": {
+      "custom": "スクリーンタイム・レシート",
+      "day": "日次スクリーンタイム・レシート",
+      "month": "月間スクリーンタイム・レシート",
+      "week": "週間スクリーンタイム・レシート"
+    },
+    "item": "品目",
+    "jsonRange": "JSON でエクスポート",
+    "kind": {
+      "custom": "日を選ぶ",
+      "day": "日",
+      "month": "月",
+      "week": "週"
+    },
+    "local": "ローカルで計算 · 何もこのマシンから出ていません",
+    "nDays_other": "選択した {count} 日間",
+    "number": "No. {n}",
+    "obs": {
+      "busiestHour": "最も忙しかったのは {from}〜{to} でした。",
+      "distractions": "脱線",
+      "driftRose": "脱線がスクリーンタイムの {now}% に増えました（前週 {before}%）。主な原因は {category} です。",
+      "lateNights_other": "23:00 以降に画面を見ていた夜が {count} 日ありました。",
+      "moreFocusPrev": "前の期間より {time} 多く集中できました。",
+      "switching": "1時間に {n} 回アプリを切り替えていました。作業をまとめると効果的かもしれません。"
+    },
+    "ofTotal": "合計の {pct}%",
+    "onTask": "タスク集中率 {pct}%",
+    "period": "期間",
+    "pickBody": "右のカレンダーで日付をクリック。Shift+クリックで範囲選択。",
+    "pickHint": "日付をクリックで追加、Shift+クリックで範囲選択。",
+    "pickTitle": "1日以上選んでください",
+    "png": "レシートを PNG で保存",
+    "print": "印刷",
+    "saveFailed": "保存できませんでした：{error}",
+    "saved": "{file} を保存しました",
+    "sideBody": "レシートはこのマシンで計算されます。エクスポートには選択した期間のすべての記録が含まれます。",
+    "sideTitle": "持ち帰る",
+    "subtotal": "アクティブ小計",
+    "switches": "コンテキスト切り替え",
+    "thanks": "ご利用ありがとうございました",
+    "time": "時間",
+    "topApps": "よく使ったアプリ",
+    "topSites": "よく見たサイト",
+    "total": "合計",
+    "vsPrev": "前期間比"
+  },
+  "rules": {
+    "add": "追加",
+    "builtin": "組み込みルール（{n}）",
+    "categoriesHint": "名前や色を変え、集中と脱線の扱いを決めます",
+    "categoryAria": "カテゴリ",
+    "colour": "色",
+    "colourN": "色 {n}",
+    "confirmDelete": "もう一度クリックで削除",
+    "delete": "削除",
+    "deleteCategory": "カテゴリを削除",
+    "deleteRule": "ルールを削除",
+    "deleted": "{name} を削除しました。ルールも削除されました。",
+    "fileUnder": "{name} に分類",
+    "filter": "組み込みルールを絞り込む…",
+    "inbox": "未分類ボックス",
+    "inboxHint": "カテゴリのないアプリとサイト（時間の多い順）",
+    "inboxZero": "使ったものはすべて分類済みです。",
+    "kind": {
+      "distracting": "脱線",
+      "neutral": "中立",
+      "productive": "集中"
+    },
+    "kindApp": "アプリ",
+    "kindSite": "サイト",
+    "match": {
+      "app": "アプリが",
+      "domain": "サイトが",
+      "title": "タイトルに含む"
+    },
+    "matchAria": "一致条件",
+    "more": "その他",
+    "nameAria": "カテゴリ名",
+    "newCategory": "新しいカテゴリ",
+    "patternAria": "パターン",
+    "placeholder": {
+      "app": "アプリキー（例：code）",
+      "domain": "ドメイン（例：youtube.com）",
+      "title": "ウィンドウタイトル内の文字列または正規表現"
+    },
+    "restore": "初期設定に戻す",
+    "restored": "組み込みルールを復元しました。",
+    "total": "合計 {time}",
+    "type": {
+      "app": "アプリ",
+      "domain": "サイト",
+      "title": "タイトル"
+    },
+    "yours": "あなたのルール",
+    "yoursEmpty": "作成したルール（今日の画面で右クリック、または上のフォーム）がここに表示されます。",
+    "yoursHint": "サイト > タイトル > アプリの順に優先。同じ種類では自作ルールが組み込みより優先"
+  },
+  "select": {
+    "filter": "絞り込み…"
+  },
+  "settings": {
+    "about": "情報",
+    "aboutText": "ZTally {version} · {platform} · 作者 TheHolyOneZ · GNU GPL v3.0 のフリーソフトウェア",
+    "appKey": "アプリキー",
+    "appOrDomain": "アプリキーまたはドメイン",
+    "appearance": "外観",
+    "appearanceHint": "自分好みに",
+    "autostart": "システムと一緒に起動",
+    "autostartHint": "ログイン時に ZTally がトレイで静かに起動します。",
+    "backgroundAudio": "バックグラウンド音声を記録",
+    "backgroundAudioHint": "別のウィンドウで作業中に流れている音楽や動画（エディタの裏の Spotify など）は別に記録されます。スクリーンタイム、集中、目標には含まれません。",
+    "browser": "ブラウザ",
+    "calls": "通話を検出",
+    "callsHint": "アプリがマイクを使っている時間を記録します（Discord、Teams、Zoom、Meet など）。前面にあっても記録します。レベルメーターや音声ツールは除外されます。",
+    "cancel": "キャンセル",
+    "chooseDays": "日を選ぶ…",
+    "connected": "接続済み",
+    "corners": "角の丸み",
+    "cornersHint": "カード・ボタン・メニューの角の丸さ。",
+    "cornersOpt": {
+      "round": "丸め",
+      "rounded": "標準",
+      "sharp": "シャープ",
+      "soft": "控えめ"
+    },
+    "data": "データ",
+    "database": "データベース",
+    "deleteDays_other": "{count} 日分を削除",
+    "extension": "ZTally Bridge 拡張機能",
+    "extensionHint": "任意。なしの場合、サイトはタブのタイトルから推測します。ありの場合、アクティブなタブの正確なドメインがわかります。Chrome、Edge、Brave、Vivaldi、Opera、Firefox で動作し、通信先は 127.0.0.1:{port} だけです。",
+    "extensionReinstall": "設定ガイド",
+    "focusLength": "集中セッションの長さ",
+    "focusLengthHint": "トレイメニューで使います。文字盤では 25、50、90 分も選べます。",
+    "font": "フォント",
+    "fontOpt": {
+      "grotesk": "Grotesk",
+      "mono": "等幅",
+      "system": "システム"
+    },
+    "forget": "履歴を削除",
+    "forgetConfirm": "{what}を完全に削除しますか？元に戻せません。",
+    "forgetDays": "特定の日を削除",
+    "forgetDaysHint": "テストデータだらけの日など、好きな日を選んでその日だけ削除します。",
+    "forgetHint": "記録した時間を完全に削除します。",
+    "forgetRange": {
+      "all": "すべて",
+      "hour": "直近1時間",
+      "today": "今日",
+      "week": "7日間"
+    },
+    "forgetWhat": {
+      "all": "すべての履歴",
+      "hour": "直近1時間",
+      "today": "今日",
+      "week": "直近7日間"
+    },
+    "forgotten_other": "{what}から {count} 件削除しました。",
+    "goalNudges": "目標の通知",
+    "goalNudgesHint": "予算の80%と100%、目標達成時に通知します。",
+    "idle": "アイドルと判定するまで",
+    "idleHint": "この時間キーボードやマウスの操作がないと離席として扱います。動画や会議アプリは除外されます。",
+    "ignored": "記録しない",
+    "ignoredHint": "これらのアプリは ZTally から見えません。",
+    "installGnome": "GNOME ヘルパーをインストール",
+    "language": "言語",
+    "languageAuto": "システムに合わせる",
+    "languageHint": "「システムに合わせる」はコンピューターの言語に従います。",
+    "media": "アイドル中も記録を続けるもの",
+    "mediaHint": "キーボードに触れずに見たり聴いたりするアプリやサイト。",
+    "minutes": "{n} 分",
+    "monday": "月曜日",
+    "more": "他 {n} 件",
+    "motion": "動きを減らす",
+    "motionHint": "アニメーションと切り替え効果をオフにします。",
+    "nDays_other": "{count} 日",
+    "needsAttention": "要確認",
+    "none": "なし",
+    "notConnected": "未接続",
+    "notifications": "通知",
+    "openFolder": "フォルダを開く",
+    "privacy": "プライバシー",
+    "privacyHint": "すべてローカルの SQLite ファイルに保存されます",
+    "remove": "{item} を削除",
+    "replayIntro": "イントロをもう一度",
+    "reset": "ZTally をリセット",
+    "resetButton": "すべてリセット",
+    "resetConfirm": "すべてのデータと設定を削除してやり直しますか？元に戻せません。",
+    "resetConfirm2": "本当にリセットしますか？ZTally の記録はすべて消えます。",
+    "resetHint": "記録した時間、バックグラウンド音声、集中セッション、目標、自作のルールとカテゴリ、すべての設定を削除します。ZTally は新規インストール直後の状態で起動します。",
+    "resetTitle": "最初からやり直す",
+    "session": "セッション",
+    "sessionOk": "アクティブウィンドウの記録は正常に動作しています。",
+    "setUpExtension": "拡張機能を設定",
+    "showLess": "少なく表示",
+    "size": "表示サイズ",
+    "sizeHint": "文字と操作部品をまとめて拡大縮小します。",
+    "style": "スタイル",
+    "styleHint": "どのスタイルもダークとライトの両方に調整済みです。カテゴリの色は変わらないので、データの見え方は一定です。",
+    "sunday": "日曜日",
+    "takeTour": "ツアーを見る",
+    "theme": "テーマ",
+    "themeDark": "ダーク",
+    "themeLight": "ライト",
+    "themeSystem": "システム",
+    "titleExclusions": "タイトルを記録しないアプリ",
+    "titleExclusionsHint": "パスワードマネージャーは最初から登録されています。",
+    "titles": "ウィンドウタイトルを記録",
+    "titlesHint": "タイトルで何に取り組んだか（ファイル名やページタイトル）がわかります。オフにするとアプリとサイトだけを記録します。",
+    "trackSelf": "ZTally の使用時間も記録",
+    "trackSelfHint": "既定ではオフ。統計を見ている時間が統計に入らないようにします。",
+    "tracking": "記録",
+    "unavailable": "利用不可",
+    "weekStart": "週の始まり",
+    "weekly": "週次レシートのお知らせ",
+    "weeklyHint": "週の始めに、先週のレシートができたらお知らせします。",
+    "working": "動作中"
+  },
+  "styles": {
+    "chronograph": {
+      "desc": "温かみのあるアンバーの計器盤",
+      "name": "クロノグラフ"
+    },
+    "graphite": {
+      "desc": "ニュートラルなグレーにティールのアクセント",
+      "name": "グラファイト"
+    },
+    "nocturne": {
+      "desc": "夜の作業に合う落ち着いたインディゴ",
+      "name": "ノクターン"
+    },
+    "rose": {
+      "desc": "やわらかなプラムにローズのアクセント",
+      "name": "ロゼ"
+    },
+    "verdant": {
+      "desc": "穏やかな森のグリーン",
+      "name": "ヴァーダント"
+    }
+  },
+  "ticker": {
+    "away": "離席 · {since}",
+    "focus": "集中 · 残り {min} 分",
+    "pausedUntil": "{time} まで一時停止",
+    "resume": "再開",
+    "self": "記録中 · ZTally 自体は記録しません",
+    "selfHint": "ZTally の使用時間は記録されません。設定 → 記録で変更できます。",
+    "unavailable": "記録できません：{backend}",
+    "waiting": "ウィンドウを待っています"
+  },
+  "titles": {
+    "calendar": "カレンダー",
+    "goals": "目標",
+    "report": "レシート",
+    "rules": "カテゴリとルール",
+    "settings": "設定",
+    "today": "文字盤",
+    "week": "リボン"
+  },
+  "today": {
+    "active": "アクティブ",
+    "activeToday": "今日のアクティブ",
+    "clear": "解除",
+    "drift": "脱線",
+    "emptyHint": "コンピューターを使うとリングが埋まっていきます。",
+    "focused": "集中",
+    "highlighting": "強調表示中",
+    "legendAria": "カテゴリ。アプリやサイトをドロップすると分類し直せます。",
+    "noActivity": "アクティビティなし",
+    "nothingRecorded": "この日は何も記録されていません。",
+    "splitAria": "集中・中立・脱線の割合",
+    "unavailable": "このセッションでは記録できません。",
+    "warmingUp": "準備中"
+  },
+  "tour": {
+    "aria": "ツアー",
+    "dial": {
+      "body": "リングの1分ごとにカテゴリの色が付きます。斜線は離席、内側の細い帯はバックグラウンド音声です。",
+      "title": "一日を時計で",
+      "try": "試してみよう：リングにマウスを乗せる。"
+    },
+    "finish": "完了",
+    "finished": "ツアー完了。設定または Ctrl+K からいつでも再生できます。",
+    "focus": {
+      "body": "25・50・90分の集中を開始。脱線アプリに1分いるとお知らせし、終了時にレポートを表示します。",
+      "title": "集中セッション"
+    },
+    "ledger": {
+      "body": "アプリとサイトを多い順に表示。分類が違えば右クリック（またはカテゴリへドラッグ）で直せ、過去の時間もすぐ塗り直されます。",
+      "title": "時間の使い道",
+      "try": "試してみよう：アプリを右クリックするか、カテゴリへドラッグ。"
+    },
+    "legend": {
+      "body": "アプリやサイトはすべてカテゴリに入ります。集中に数えるものも脱線に数えるものもあります。マウスを乗せると、その時間だけを文字盤に表示します。",
+      "title": "カテゴリ"
+    },
+    "nice": "その通り！",
+    "palette": {
+      "body": "コマンドパレットで画面・アプリ・操作（一時停止、集中、エクスポート）を探せます。",
+      "title": "どこへでもジャンプ",
+      "try": "試してみよう：Ctrl+K を押す。"
+    },
+    "rail": {
+      "body": "週、カレンダー、レシート、目標、カテゴリはサイドバーにあります。1〜7キーで直接移動できます。",
+      "title": "そのほかの画面",
+      "try": "試してみよう：サイドバーにマウスを乗せる。"
+    },
+    "skip": "ツアーをスキップ",
+    "skipStep": "スキップ",
+    "status": {
+      "body": "ZTally が記録中かどうかと今日の合計を常に表示。会議やプライベートな時間にはクリックで一時停止できます。",
+      "title": "記録の状態"
+    }
+  },
+  "tray": {
+    "focus": "集中 · 残り {left} · 今日 {total}",
+    "focusEnd": "集中セッションを終了",
+    "focusStart": "{min} 分の集中セッションを開始",
+    "open": "ZTally を開く",
+    "pause15": "15分間停止",
+    "pause60": "1時間停止",
+    "pauseTomorrow": "明日まで停止",
+    "paused": "{time} まで停止 · 今日 {total}",
+    "quit": "ZTally を終了",
+    "resume": "記録を再開",
+    "today": "今日 · {time}"
+  },
+  "week": {
+    "active": "今週のアクティブ時間",
+    "activeDays_other": "アクティブな日 {count} 日",
+    "average": "1日の平均",
+    "backgroundHead": "バックグラウンド · 集計外",
+    "bestStreak": "最長の集中",
+    "categories": "カテゴリ",
+    "categoriesHint": "今週（先週は点線の影で表示）",
+    "cellTip": "{time} · 主に {category}",
+    "emptyBody": "記録が進むと週の表示が埋まっていきます。上の矢印で他の週を見られます。",
+    "emptyTitle": "今週のアクティビティはありません",
+    "focusedShare": "集中の割合",
+    "new": "新規",
+    "noDataLast": "先週のデータなし",
+    "openDay": "この日を開く",
+    "ribbon": "リボン",
+    "ribbonHint": "1マスが1時間。色はその時間の主な内容、明るいほど活発",
+    "same": "先週と同じ",
+    "top": "よく使ったアプリとサイト",
+    "topHint": "右クリックで分類し直せます",
+    "vsLast": "前週比 {pct}%"
+  },
+  "window": {
+    "close": "閉じる",
+    "closeHint": "トレイに閉じます。記録は続きます",
+    "maximize": "最大化",
+    "minimize": "最小化",
+    "restore": "元に戻す"
+  },
+  "wizard": {
+    "c1": {
+      "body": "ブラウザで {address} を開きます。",
+      "title": "{browser} の拡張機能ページを開く"
+    },
+    "c2": {
+      "body": "ページ右上のスイッチです。",
+      "title": "デベロッパー モードをオン"
+    },
+    "c3": {
+      "body": "デベロッパー モードをオンにするとボタンが表示されます。",
+      "title": "「パッケージ化されていない拡張機能を読み込む」でこのフォルダを選択"
+    },
+    "connected": "接続済み",
+    "connectedChromium": "Chromium 系ブラウザから拡張機能が通信しています。",
+    "connectedFirefox": "Firefox から拡張機能が通信しています。",
+    "copied": "コピーしました",
+    "copyAddress": "アドレスをコピー",
+    "copyPath": "パスをコピー",
+    "dialogHint": "ファイル選択画面で Ctrl+L を押し、パスを貼り付けて Enter。",
+    "dialogHintWin": "ファイル選択画面の上部のアドレスバーにパスを貼り付けて Enter。",
+    "f1": {
+      "body": "ZTally が {address} を開きます。またはアドレスバーに貼り付けてください。",
+      "title": "{browser} のデバッグページを開く"
+    },
+    "f2": {
+      "body": "ZTally Bridge フォルダ内にあります：",
+      "title": "「一時的なアドオンを読み込む…」で manifest.json を選択"
+    },
+    "ffTemporary": "Firefox は再起動すると一時的なアドオンを削除するため、再起動のたびに手順2が必要です。常時インストールには Mozilla 署名済みの拡張機能が必要です。",
+    "mock": {
+      "devMode": "デベロッパー モード",
+      "loadTemp": "一時的なアドオンを読み込む…",
+      "loadUnpacked": "パッケージ化されていない拡張機能を読み込む",
+      "temporary": "一時的な拡張機能"
+    },
+    "openBrowser": "{browser} を開く",
+    "otherChromium": "その他の Chromium 系",
+    "otherFirefox": "その他の Firefox 系",
+    "pasteNote": "ブラウザはアプリからこのページを直接開けません。アドレスバーをクリックして貼り付け（Ctrl+V）、Enter を押してください。",
+    "showFolder": "フォルダを表示",
+    "title": "ブラウザに ZTally Bridge を追加",
+    "waiting": "拡張機能を待っています…",
+    "waitingHint": "読み込んだらブラウザに切り替えて、どれかのタブをクリックしてください。自動で緑に変わります。",
+    "whichBrowser": "どのブラウザ？",
+    "why": "任意です。入れると、タイトルから推測する代わりにアクティブなタブの正確なサイトがわかります。通信先はこのアプリ（127.0.0.1）だけです。"
+  }
+}

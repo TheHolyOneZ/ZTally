@@ -1,0 +1,252 @@
+
+
+:root[data-style="nocturne"]:not([data-theme="light"]) {
+  color-scheme: dark;
+  --page: #0b0d14;
+  --surface: #11141d;
+  --surface-2: #171b27;
+  --surface-3: #1f2432;
+  --raise: #272d3d;
+  --line: rgba(200, 215, 255, 0.08);
+  --line-2: rgba(200, 215, 255, 0.14);
+  --ink: #eef1fa;
+  --ink-2: #b9c0d4;
+  --muted: #7d86a0;
+  --faint: #4a5169;
+  --track: #1d2230;
+  --brand: #7c9cff;
+  --brand-2: #5b6ef5;
+  --brand-ink: #0b0d14;
+  --brand-soft: rgba(124, 156, 255, 0.15);
+}
+
+@media (prefers-color-scheme: light) {
+  :root[data-style="nocturne"]:not([data-theme="dark"]) {
+    color-scheme: light;
+    --page: #e6e9f2;
+    --surface: #f5f7fc;
+    --surface-2: #eceff7;
+    --surface-3: #e0e4ef;
+    --raise: #ffffff;
+    --line: rgba(20, 30, 60, 0.09);
+    --line-2: rgba(20, 30, 60, 0.16);
+    --ink: #121626;
+    --ink-2: #3f4760;
+    --muted: #6c7490;
+    --faint: #aab1c6;
+    --track: #dde1ec;
+    --brand: #4b63e8;
+    --brand-2: #3a4fd0;
+    --brand-ink: #ffffff;
+    --brand-soft: rgba(75, 99, 232, 0.12);
+  }
+}
+
+:root[data-style="nocturne"][data-theme="light"] {
+  color-scheme: light;
+  --page: #e6e9f2;
+  --surface: #f5f7fc;
+  --surface-2: #eceff7;
+  --surface-3: #e0e4ef;
+  --raise: #ffffff;
+  --line: rgba(20, 30, 60, 0.09);
+  --line-2: rgba(20, 30, 60, 0.16);
+  --ink: #121626;
+  --ink-2: #3f4760;
+  --muted: #6c7490;
+  --faint: #aab1c6;
+  --track: #dde1ec;
+  --brand: #4b63e8;
+  --brand-2: #3a4fd0;
+  --brand-ink: #ffffff;
+  --brand-soft: rgba(75, 99, 232, 0.12);
+}
+
+
+:root[data-style="verdant"]:not([data-theme="light"]) {
+  color-scheme: dark;
+  --page: #0b100d;
+  --surface: #111813;
+  --surface-2: #17201a;
+  --surface-3: #1f2a22;
+  --raise: #28352c;
+  --line: rgba(210, 255, 225, 0.08);
+  --line-2: rgba(210, 255, 225, 0.14);
+  --ink: #ecf5ee;
+  --ink-2: #b8c9bd;
+  --muted: #7d9184;
+  --faint: #4b5c50;
+  --track: #1c261f;
+  --brand: #57d39a;
+  --brand-2: #2fae78;
+  --brand-ink: #0b100d;
+  --brand-soft: rgba(87, 211, 154, 0.14);
+}
+
+@media (prefers-color-scheme: light) {
+  :root[data-style="verdant"]:not([data-theme="dark"]) {
+    color-scheme: light;
+    --page: #e5ece6;
+    --surface: #f4f8f4;
+    --surface-2: #eaf1eb;
+    --surface-3: #dde7df;
+    --raise: #ffffff;
+    --line: rgba(15, 45, 25, 0.09);
+    --line-2: rgba(15, 45, 25, 0.16);
+    --ink: #122018;
+    --ink-2: #3e5146;
+    --muted: #6b7f72;
+    --faint: #a9b8ad;
+    --track: #dbe4dd;
+    --brand: #1f9a64;
+    --brand-2: #177d51;
+    --brand-ink: #ffffff;
+    --brand-soft: rgba(31, 154, 100, 0.12);
+  }
+}
+
+:root[data-style="verdant"][data-theme="light"] {
+  color-scheme: light;
+  --page: #e5ece6;
+  --surface: #f4f8f4;
+  --surface-2: #eaf1eb;
+  --surface-3: #dde7df;
+  --raise: #ffffff;
+  --line: rgba(15, 45, 25, 0.09);
+  --line-2: rgba(15, 45, 25, 0.16);
+  --ink: #122018;
+  --ink-2: #3e5146;
+  --muted: #6b7f72;
+  --faint: #a9b8ad;
+  --track: #dbe4dd;
+  --brand: #1f9a64;
+  --brand-2: #177d51;
+  --brand-ink: #ffffff;
+  --brand-soft: rgba(31, 154, 100, 0.12);
+}
+
+
+:root[data-style="rose"]:not([data-theme="light"]) {
+  color-scheme: dark;
+  --page: #120c10;
+  --surface: #191116;
+  --surface-2: #21171d;
+  --surface-3: #2b1e26;
+  --raise: #36262f;
+  --line: rgba(255, 215, 235, 0.08);
+  --line-2: rgba(255, 215, 235, 0.14);
+  --ink: #f7eef2;
+  --ink-2: #d2bcc6;
+  --muted: #9a8390;
+  --faint: #5e4a55;
+  --track: #251a20;
+  --brand: #ff7eb0;
+  --brand-2: #e0528c;
+  --brand-ink: #1a0d13;
+  --brand-soft: rgba(255, 126, 176, 0.14);
+}
+
+@media (prefers-color-scheme: light) {
+  :root[data-style="rose"]:not([data-theme="dark"]) {
+    color-scheme: light;
+    --page: #f1e6ea;
+    --surface: #fbf5f7;
+    --surface-2: #f4eaee;
+    --surface-3: #eadce2;
+    --raise: #ffffff;
+    --line: rgba(60, 15, 35, 0.09);
+    --line-2: rgba(60, 15, 35, 0.16);
+    --ink: #22131a;
+    --ink-2: #5a4350;
+    --muted: #876d7a;
+    --faint: #c3adb8;
+    --track: #eadfe4;
+    --brand: #d2427c;
+    --brand-2: #b12e64;
+    --brand-ink: #ffffff;
+    --brand-soft: rgba(210, 66, 124, 0.12);
+  }
+}
+
+:root[data-style="rose"][data-theme="light"] {
+  color-scheme: light;
+  --page: #f1e6ea;
+  --surface: #fbf5f7;
+  --surface-2: #f4eaee;
+  --surface-3: #eadce2;
+  --raise: #ffffff;
+  --line: rgba(60, 15, 35, 0.09);
+  --line-2: rgba(60, 15, 35, 0.16);
+  --ink: #22131a;
+  --ink-2: #5a4350;
+  --muted: #876d7a;
+  --faint: #c3adb8;
+  --track: #eadfe4;
+  --brand: #d2427c;
+  --brand-2: #b12e64;
+  --brand-ink: #ffffff;
+  --brand-soft: rgba(210, 66, 124, 0.12);
+}
+
+
+:root[data-style="graphite"]:not([data-theme="light"]) {
+  color-scheme: dark;
+  --page: #0c0c0d;
+  --surface: #141415;
+  --surface-2: #1b1b1d;
+  --surface-3: #232326;
+  --raise: #2c2c30;
+  --line: rgba(255, 255, 255, 0.08);
+  --line-2: rgba(255, 255, 255, 0.14);
+  --ink: #f2f2f3;
+  --ink-2: #c0c0c4;
+  --muted: #86868c;
+  --faint: #505055;
+  --track: #202023;
+  --brand: #4fd1c5;
+  --brand-2: #2bb3a6;
+  --brand-ink: #0c0c0d;
+  --brand-soft: rgba(79, 209, 197, 0.13);
+}
+
+@media (prefers-color-scheme: light) {
+  :root[data-style="graphite"]:not([data-theme="dark"]) {
+    color-scheme: light;
+    --page: #e8e8ea;
+    --surface: #f7f7f8;
+    --surface-2: #eeeef0;
+    --surface-3: #e2e2e5;
+    --raise: #ffffff;
+    --line: rgba(0, 0, 0, 0.09);
+    --line-2: rgba(0, 0, 0, 0.16);
+    --ink: #151517;
+    --ink-2: #45454b;
+    --muted: #74747b;
+    --faint: #b2b2b8;
+    --track: #e0e0e3;
+    --brand: #0f9488;
+    --brand-2: #0b766c;
+    --brand-ink: #ffffff;
+    --brand-soft: rgba(15, 148, 136, 0.12);
+  }
+}
+
+:root[data-style="graphite"][data-theme="light"] {
+  color-scheme: light;
+  --page: #e8e8ea;
+  --surface: #f7f7f8;
+  --surface-2: #eeeef0;
+  --surface-3: #e2e2e5;
+  --raise: #ffffff;
+  --line: rgba(0, 0, 0, 0.09);
+  --line-2: rgba(0, 0, 0, 0.16);
+  --ink: #151517;
+  --ink-2: #45454b;
+  --muted: #74747b;
+  --faint: #b2b2b8;
+  --track: #e0e0e3;
+  --brand: #0f9488;
+  --brand-2: #0b766c;
+  --brand-ink: #ffffff;
+  --brand-soft: rgba(15, 148, 136, 0.12);
+}

@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "ZTally Bridge",
+  "version": "0.2.0",
+  "description": "Tells the ZTally desktop app which site your active tab is on, so it can attribute screen time per site. Sends only to 127.0.0.1; nothing leaves your computer.",
+  "permissions": [
+    "tabs",
+    "alarms"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "bridge@ztally.zsync.eu",
+      "strict_min_version": "121.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  },
+  "author": "TheHolyOneZ",
+  "homepage_url": "https://zsync.eu/ztally/"
+}
