@@ -446,6 +446,13 @@
   "settings": {
     "about": "情報",
     "aboutText": "ZTally {version} · {platform} · 作者 TheHolyOneZ · GNU GPL v3.0 のフリーソフトウェア",
+    "link": {
+      "website": "ウェブサイト",
+      "source": "ソースコード",
+      "author": "作者",
+      "projects": "ほかのプロジェクト",
+      "mods": "ゲームMod"
+    },
     "appKey": "アプリキー",
     "appOrDomain": "アプリキーまたはドメイン",
     "appearance": "外観",

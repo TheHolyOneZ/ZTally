@@ -279,5 +279,6 @@ The foreground/idle backend can be smoke-tested under Wine with `live_sample` (o
 
 ## License
 
-© 2026 [TheHolyOneZ](https://github.com/TheHolyOneZ) · [zsync.eu](https://zsync.eu/ztally/)<br />
+Made by [TheHolyOneZ](https://github.com/TheHolyOneZ) · [ZTally website](https://zsync.eu/ztally/) · more projects at [zsync.eu](https://zsync.eu/) · game mods at [zlogic.eu](https://zlogic.eu/)<br />
+© 2026 TheHolyOneZ.
 GNU General Public License v3.0 only. See [LICENSE](LICENSE).

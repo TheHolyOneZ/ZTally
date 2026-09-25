@@ -348,8 +348,16 @@ fn open_extension_page(id: String) -> R<bool> {
 
 
 #[tauri::command]
-fn open_website() -> R<()> {
-    tauri_plugin_opener::open_url("https://zsync.eu/ztally/", None::<&str>).map_err(|e| e.to_string())
+fn open_link(target: String) -> R<()> {
+    let url = match target.as_str() {
+        "website" => "https://zsync.eu/ztally/",
+        "source" => "https://github.com/TheHolyOneZ/ZTally",
+        "author" => "https://github.com/TheHolyOneZ",
+        "projects" => "https://zsync.eu/",
+        "mods" => "https://zlogic.eu/",
+        _ => return Err("unknown link".into()),
+    };
+    tauri_plugin_opener::open_url(url, None::<&str>).map_err(|e| e.to_string())
 }
 
 #[tauri::command]
@@ -390,7 +398,7 @@ pub fn handler() -> impl Fn(tauri::ipc::Invoke) -> bool + Send + Sync + 'static 
         install_gnome_extension,
         open_browser_extension,
         open_data_folder,
-        open_website,
+        open_link,
         prepare_extension,
         detect_browsers,
         open_extension_page,

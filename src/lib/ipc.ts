@@ -260,7 +260,7 @@ export const api = {
 
   openExtensionPage: (id: string) => invoke<boolean>("open_extension_page", { id }),
   openDataFolder: () => invoke<void>("open_data_folder"),
-  openWebsite: () => invoke<void>("open_website"),
+  openLink: (target: "website" | "source" | "author" | "projects" | "mods") => invoke<void>("open_link", { target }),
 };
 
 export const inTauri = "__TAURI_INTERNALS__" in window;

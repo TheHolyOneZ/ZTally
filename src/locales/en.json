@@ -450,6 +450,13 @@
   "settings": {
     "about": "About",
     "aboutText": "ZTally {version} · {platform} · by TheHolyOneZ · free software under the GNU GPL v3.0",
+    "link": {
+      "website": "Website",
+      "source": "Source code",
+      "author": "Author",
+      "projects": "More projects",
+      "mods": "Game mods"
+    },
     "appKey": "app key",
     "appOrDomain": "app key or domain",
     "appearance": "Appearance",

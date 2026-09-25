@@ -67,6 +67,13 @@ function AddChip({ placeholder, onAdd }: { placeholder: string; onAdd: (s: strin
   );
 }
 
+const ABOUT_LINKS = [
+  { id: "website", url: "zsync.eu/ztally" },
+  { id: "source", url: "github.com/TheHolyOneZ/ZTally" },
+  { id: "author", url: "github.com/TheHolyOneZ" },
+  { id: "projects", url: "zsync.eu" },
+  { id: "mods", url: "zlogic.eu" },
+] as const;
 
 export function StylePicker({ value, onChange }: { value: string; onChange: (id: string) => void }) {
   const t = useT();
@@ -406,10 +413,13 @@ export function Settings() {
             <Icon name="folder" size={14} /> {t("settings.openFolder")}
           </button>
         </Row>
-        <Row title={t("settings.about")} desc={t("settings.aboutText", { version: status.version, platform: status.platform })}>
-          <button className="btn sm" onClick={() => api.openWebsite()}>
-            <Icon name="external" size={14} /> zsync.eu/ztally
-          </button>
+      </section>
+
+      <section className="card">
+        <header className="card-head">
+          <h2>{t("settings.about")}</h2>
+        </header>
+        <Row title="ZTally" desc={t("settings.aboutText", { version: status.version, platform: status.platform })}>
           <button className="btn sm" onClick={() => (setView("today"), setTour(true))}>
             <Icon name="compass" size={14} /> {t("settings.takeTour")}
           </button>
@@ -417,6 +427,15 @@ export function Settings() {
             {t("settings.replayIntro")}
           </button>
         </Row>
+        <div className="about-links">
+          {ABOUT_LINKS.map((l) => (
+            <button key={l.id} className="about-link" onClick={() => api.openLink(l.id)}>
+              <span className="about-link-label">{t(`settings.link.${l.id}`)}</span>
+              <span className="about-link-url">{l.url}</span>
+              <Icon name="external" size={14} />
+            </button>
+          ))}
+        </div>
       </section>
       <section className="card danger-zone">
         <header className="card-head">
